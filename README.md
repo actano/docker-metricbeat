@@ -9,6 +9,6 @@ docker run -d --name metricbeat \
   --volume=/proc:/hostfs/proc:ro \
   --volume=/sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro \
   --volume=/:/hostfs:ro \
-  actano/metricbeat:latest -system.hostfs=/hostfs
+  rplan/metricbeat:latest -system.hostfs=/hostfs
 ```
 
